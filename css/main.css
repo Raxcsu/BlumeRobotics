@@ -3,11 +3,11 @@
    Global styles
    ========================================================================== */
 h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, small, #pricing {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 p, .lead {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 h1 {
@@ -20,7 +20,7 @@ h1 {
 
 h2 {
   font-size: 40px;
-  line-height: 40px;
+  line-height: 20px;
   etter-spacing: -0.5px;
   color: #ffffff;
   font-weight: 700;
@@ -89,12 +89,12 @@ a:hover, a:focus {
 
 .btn {
   text-transform: uppercase;
-  border-radius: 4px;
+  border-radius: 8px;
   border: none;
 }
 
 .btn-lg {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.33;
   padding: 22px 30px;
   font-weight: 400;
@@ -273,7 +273,7 @@ a:hover, a:focus {
    Main styles
    ========================================================================== */
 header {
-  background: url(../img/header-ocean.jpg) no-repeat center center;
+  background: url(../img/header-fish2.png) no-repeat center center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
@@ -358,10 +358,8 @@ header {
 	padding: 30px 0px;
 }
 
-
-
 #learn-more {
-  background: url(../img/learn.png) #231f20 no-repeat center center fixed;
+  background: url(../img/background.png) #231f20 no-repeat center center fixed;
   min-height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -444,120 +442,19 @@ footer {
 }
 
 
+/* ==========================================================================
+   LOGOS
+   ========================================================================== */
 
-/*---------------Pricing Tables-------------------*/
-
-
-#pricing {
-  background: #70cbce;
+.logos {
+    text-align:center;
 }
 
-.pricing-container {
-  padding-left: 0px;
-  padding-right: 0px;
+.logo{
+    display:inline-block;
+    margin:30px 80px;
+    padding: 30px 0px 40px;
 }
-
-.pricing-table {
-  background: transparent;
-  margin-bottom: 50px;
-  margin-top: 0px;
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
-}
-.pricing-table.active {
-  box-shadow: 0px 0px 12px rgba(41,46,50,0.6); 
-  position: absolute;
-  margin: auto;
-  z-index: 200;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.pricing-table:hover {
-  margin-top: -10px;
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
-}
-
-.pricing-table li {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.headline {
-  background: #231f20;
-  color: #FFFFFF;
-  padding: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.price {
-    background: none repeat scroll 0 0 #231f20;
-    color: #FFFFFF;
-    font-size: 32px;
-    font-weight: bold;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
-
-.pricing-table:hover li.price  {
-  background: #303236;
-  -webkit-transition: all 0.85s ease-in-out;
-  -moz-transition: all 0.85s ease-in-out;
-  -o-transition: all 0.85s ease-in-out;
-  transition: all 0.85s ease-in-out;
-}
-
-.price small {
-  font-weight: 300;
-  color: #929496;
-}
-
-.info {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-weight: 300;
-  font-size: 13px;
-  color: #929496;
-  background: #ffffff;
-}
-
-.features {
-  color: #231f20;
-  font-weight: bold;
-  padding-top: 12px;
-  padding-bottom: 15px;
-  border-bottom: 1px dotted #E8EAEA;
-  background: #ffffff
-}
-
-.features.first {
-  border-top: 1px dotted #E8EAEA;
-}
-
-.features.last {
-  padding-top: 17px;
-  padding-bottom: 20px;
-}
-
-.features.last a {
-	color: #70cbce;
-	font-size: 14px;
-	letter-spacing: 1px;
-}
-
-.pricing-container .btn {
-    border-radius: 0;
-}
-
-
-
 
 /* ==========================================================================
    Form styles
