@@ -1,13 +1,22 @@
+@font-face {
+    font-family: 'nura-regular'; /*a name to be used later*/
+    src: url("../fonts/Nura-Normal.ttf"); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'nura-thin'; /*a name to be used later*/
+    src: url("../fonts/Nura-Thin.ttf"); /*URL to font*/
+}
 
 /* ==========================================================================
    Global styles
    ========================================================================== */
 h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, small, #pricing {
-  font-family: 'Lato', sans-serif;
+  font-family: 'nura-regular', sans-serif;
 }
 
 p, .lead {
-	font-family: 'Lato', sans-serif;
+	font-family: 'nura-thin', sans-serif;
 }
 
 h1 {
@@ -15,23 +24,24 @@ h1 {
   line-height: 55px;
   letter-spacing: -1px;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 h2 {
-  font-size: 40px;
-  line-height: 20px;
+  font-size: 25px;
+  line-height: 10px;
   etter-spacing: -0.5px;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 100;
 }
 
 h3 {
-  font-size: 16px;
-  line-height: 30px;
+  font-family: 'nura-thin';
+  font-size: 25px;
+  line-height: 10px;
   letter-spacing: 0px;
-  color: #231f20;
-  font-weight: 700;
+  color:  #231f20;
+  font-weight: 200;
 }
 
 .lead {
@@ -273,7 +283,7 @@ a:hover, a:focus {
    Main styles
    ========================================================================== */
 header {
-  background: url(../img/header-fish2.png) no-repeat center center;
+  background: url(../img/header.png) no-repeat center center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
@@ -359,7 +369,7 @@ header {
 }
 
 #learn-more {
-  background: url(../img/background.png) #231f20 no-repeat center center fixed;
+  background: url(../img/body.png) #231f20 no-repeat center center fixed;
   min-height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
